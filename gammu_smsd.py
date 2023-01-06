@@ -18,7 +18,7 @@ else:
             text = text + os.environ[varname]
 
 # Set the webhook URL and the data to be sent
-webhook_url = "https://hooks.slack.com/services/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"
+webhook_url = ""
 message = text
 string = "FROM: "
 number = os.environ["SMS_1_NUMBER"]
